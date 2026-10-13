@@ -400,7 +400,7 @@ export const ARCHITECTURE_MODULES = [
     links: [
       {
         label: "View simulator source",
-        href: "https://github.com/mongodb-industry-solutions/ist-factory-simulator/tree/main/virtual-factory/src/simulation",
+        href: "https://github.com/ashok9847/agentic-predictive-maintenance-aws-bedrock-genai",
       },
     ],
     sampleLabel: "Machine station event",
@@ -431,7 +431,7 @@ export const ARCHITECTURE_MODULES = [
       },
       {
         label: "View broker configuration",
-        href: "https://github.com/mongodb-industry-solutions/ist-factory-simulator/blob/main/virtual-factory/mosquitto/mosquitto.conf",
+        href: "https://github.com/ashok9847/agentic-predictive-maintenance-aws-bedrock-genai",
       },
     ],
     sampleLabel: "Published MQTT message",
@@ -912,7 +912,7 @@ export const ARCHITECTURE_DETAIL_FLOWS = [
 ];
 
 export const FACTORY_SOURCE_URL =
-  "https://github.com/mongodb-industry-solutions/ist-factory-simulator";
+  "https://github.com/ashok9847/agentic-predictive-maintenance-aws-bedrock-genai";
 
 function configuredHref(urls, name) {
   const value = urls?.[name];
